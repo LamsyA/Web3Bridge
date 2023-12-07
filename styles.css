@@ -1,0 +1,177 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input section styles */
+  .input-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form styles */
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  /* Task list styles */
+  .task-list-section {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .task-text {
+    font-weight: bold;
+  }
+  
+  .edit-task-btn,
+  .edit-description-btn,
+  .edit-date-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-task-btn,
+  .edit-description-btn,
+  .edit-date-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .edit-task-btn:hover,
+  .edit-description-btn:hover,
+  .edit-date-btn:hover,
+  .delete-btn:hover {
+    opacity: 0.8;
+  }
+
+/* Detailed view for task details */
+.task-details {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.task-details span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.task-details strong {
+  color: #4caf50;
+}
+
+/* Buttons for detailed view */
+.edit-btns {
+  margin-top: 10px;
+}
+
+.edit-btns button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btns button:hover {
+  opacity: 0.8;
+}
+
+.edit-btns .edit-cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.task-details span:first-child {
+    font-size: 12px;
+    color: #888;
+}  
